@@ -8,7 +8,7 @@ public class Main {
 
         try {
             System.out.println(3/0);
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             e.printStackTrace();
         }
     }
